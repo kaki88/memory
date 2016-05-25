@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu memory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script src="js.js"></script>
+</head>
+
+<body onload="init()">
+
+
+<div class="info">
+    <table>
+        
+        <tr>
+            <td colspan="2" class="titre">STATISTIQUES</td>
+
+        </tr>      
+        <tr>
+            <td>
+                Temps de jeu:</td>
+            <td class="droite">
+                <form>
+                <INPUT type="text" name="sec" value="0" size=3 class="droite">
+                    </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+        Nbr de tentatives:
+                </td>
+                        <td>
+                             <INPUT type="text" value="0" id="coupjouer" class="droite">
+  
+                </td>
+        </tr>
+                <tr>
+            <td>
+        Paires trouvées:
+                </td>
+                 <td> 
+   <INPUT type="text" value="0" id="pairetrouver" class="droite">
+                </td>
+        </tr>
+    </table>
+    
+
+    
+</div>  
+    
+    
+    <table id="ajoute" onclick="ajoute()">
+        <tr>
+            <td id="0" onclick="jouer(0)" class="dos-de-carte"</td>
+            <td id="1" onclick="jouer(1)" class="dos-de-carte"</td>     
+            <td id="2" onclick="jouer(2)" class="dos-de-carte"</td>
+            <td id="3" onclick="jouer(3)" class="dos-de-carte"</td>
+            <td id="4" onclick="jouer(4)" class="dos-de-carte"</td>     
+            <td id="5" onclick="jouer(5)" class="dos-de-carte"</td>
+        <tr>
+            <td id="6" onclick="jouer(6)" class="dos-de-carte"</td>
+            <td id="7" onclick="jouer(7)" class="dos-de-carte"</td>     
+            <td id="8" onclick="jouer(8)" class="dos-de-carte"</td>
+            <td id="9" onclick="jouer(9)" class="dos-de-carte"</td>
+            <td id="10" onclick="jouer(10)" class="dos-de-carte"</td>     
+            <td id="11" onclick="jouer(11)" class="dos-de-carte"</td>
+        </tr>
+        <tr>
+            <td id="12" onclick="jouer(12)" class="dos-de-carte"</td>
+            <td id="13" onclick="jouer(13)" class="dos-de-carte"</td>     
+            <td id="14" onclick="jouer(14)" class="dos-de-carte"</td>
+            <td id="15" onclick="jouer(15)" class="dos-de-carte"</td>
+            <td id="16" onclick="jouer(16)" class="dos-de-carte"</td>     
+            <td id="17" onclick="jouer(17)" class="dos-de-carte"</td>
+        </tr>
+    </table>
+
+<div id="gagne" class="test">Félicitations, c'est gagné!!!
+    
+    <button id="rejouer" onclick="init()">REJOUER</button>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+body {
+    margin: auto;
+    width: 980px;
+    margin-top: 50px;
+}
+    
+.noiretblanc {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+
+.dos-de-carte {
+    background-image: url(images/back.gif);
+    background-size: 150px 150px;
+    background-position: left;
+    width: 145px;
+    height: 150px;
+    border: 7px solid black;
+    border-radius: 10px;
+}
+
+.info {
+    width: 200px;
+    height: 300px;
+    background-color: cornflowerblue;
+    position: fixed;
+    float: left;
+    left: 0px;
+}
+
+.droite {
+    text-align: right;
+    float:right;
+    width: 50px;
+}
+.titre{
+    text-align: center;
+    font-weight: bold;
+}
+
+#gagne {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    width: 500px;
+    padding: 30px;
+    background-color: forestgreen;
+    margin-top: -315px;
+  z-index: 30;
+    position: absolute;
+}
+
+.test {
+    display: none;  
+     z-index: 30;
+}
